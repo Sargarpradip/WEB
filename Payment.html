@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./payment.css">
+</head>
+<body>
+    <form action="pay">
+        <div id="payadd">
+            <h3>BILLING ADDRESS</h3>
+            
+            <label class="labels" for="name">Full Name</label><br>
+            <input class="inputs" type="name" placeholder="Enter name"><br>
+
+            <label  class="labels" for="email">Email</label><br>
+            <input class="inputs" type="email" placeholder="Enter email"><br>
+
+            <label class="labels" for="address">Address</label><br>
+            <input class="inputs" type="add" placeholder="Enter address"><br>
+
+            <label class="labels" for="city">City</label><br>
+            <input class="inputs" type="city" placeholder="Enter city">
+
+            <div id="opt">
+                <label class="labels" for="state">State</label><br>
+                <select name="" id="">
+                    <option value="">Maharashtra</option>
+                </select>
+
+
+            </div>
+
+            <label class="labels" for="code">Zip Code</label><br>
+            <input class="inputs" type="code" placeholder="Enter zipcode">
+            
+        </div>
+
+
+        <div id="payrup">
+
+            <h3>PAYMENT</h3>
+            
+            <label class="labels" for="card">Accepted Cards</label><br>
+            <img src="./img/pngfind.com-credit-cards-png-107975.png" width="100px" alt=""><br>
+
+            <label class="labels" for="cardnum">Credit Card Number</label><br>
+            <input class="inputs" type="cnum" placeholder="Enter credit card number"><br>
+
+            <label class="labels" for="exp">EXP month</label><br>
+            <input class="inputs" type="exp" placeholder="Enter exp month"><br>
+
+            <div id="opt">
+                <label class="labels" for="state">EXP Year</label><br>
+                <select name="" id="">
+                    <option value="">2024</option>
+                    <option value="">2025</option>
+                    <option value="">2026</option>
+                    <option value="">2027</option>
+                </select><br>
+            </div>
+
+            <label class="labels" for="code">CVV</label><br>
+            <input class="inputs" type="code" placeholder="cvv "><br>
+
+            <button>Proceed to Checkout</button>
+
+
+        </div>
+   
+    </form>
+</body>
+</html>

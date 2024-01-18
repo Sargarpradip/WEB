@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+    <nav class="navbar sticky">
+        <ul class="nav-list">
+            <div class="logo"><img src="./img/nancha amba bor@3x.png" width="150px" alt="logo"></div>
+            <li class="li l1"><a href="http://127.0.0.1:5500/Nanacha%20Amba/index.html">Home</a></li>
+            <li class="li l2"><a href="#product">Products</a></li>
+            <li class="li l3"><a href="http://127.0.0.1:5500/Nanacha%20Amba/about.html">About US</a></li>
+            <li class="li l4"><a href="http://127.0.0.1:5500/Nanacha%20Amba/contact.html">Contact US</a></li>
+        </ul>
+        <div class="rightnav">
+            <input type="text" name="search" id="search" placeholder="Search location" >
+            <button class="but btn-sm">Search</button>
+        </div>
+    </nav>
+    <section class="Section1">
+        <div class="img-2nd">
+            <form class="login-form">
+                <img src="./img/nancha amba bor@3x.png" width="150px" alt="logo">
+                <h1>SignUp Form</h1> <br>
+                <div class="bgcolor1">
+                    <label for="" class="label lb-1">Name:</label><br>
+                    <input id="nm" type="text" name="username" class="input in-1" placeholder="Eneter Your Name"><br><br>
+                    <span id="name"></span>
+                    
+                    <label for="" class="label lb-2">Mobile No:</label><br>
+                    <input type="text"id="mob" name="mono" class="input in-2" placeholder="Eneter Your Mobile number"><br> <br>
+                    <span id="mobile"></span>
+
+                    <label for="" class="label lb-2">Email:</label><br>
+                    <input type="text" id="ema" name="email" class="input in-2" placeholder="Eneter Your E-mail"><br> <br>
+                    <span id="email"></span>
+
+                    <label for="" class="label lb-2">Username:</label><br>
+                    <input type="text" id="usnm" name="usnm" class="input in-2" placeholder="Eneter Your Username"><br> <br>
+                    <span id="username"></span>
+
+                    <label for="" class="label lb-2">Password:</label><br>
+                    <input type="text" id="pass" name="password" class="input in-2" placeholder="Eneter Your Password"><br> <br>
+                    <span id="password"></span>
+
+                    <label for="" class="label lb-2">Confirm Password:</label><br>
+                    <input type="text" id="conpass" name="con_password" class="input in-2" placeholder="Eneter Your Confirm-Password"><br> <br>
+                    <span id="comfirmpassword"></span>
+
+                    <label for="" class="label lb-3">Terms and conditions</label>    
+                    <input type="checkbox" id="chk" class="in-3" required><br> <br>  
+                    <span id="checkbox"></span>
+
+                </div>
+                <div class="login-sub-bot">
+                    <button class="but btn-sb"  onclick=" return a()" value="submit">Submit</button><br><br>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="./signup.js"></script>
+</body>
+</html>
